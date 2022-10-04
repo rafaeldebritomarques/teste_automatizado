@@ -13,4 +13,5 @@ def test_mult():
 
 def test_div():
     assert div(15,3) == 5
+    assert div(15,0) == "Divisão por zero"
 
